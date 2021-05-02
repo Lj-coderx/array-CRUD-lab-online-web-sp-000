@@ -14,6 +14,8 @@ def add_element_to_start_of_array(array, element)
 create_an_array.unshift("wow")
 end
 
+puts create_an_array.inspect
+
 def remove_element_from_end_of_array(array)
 wow_element = create_an_array.pop
 end

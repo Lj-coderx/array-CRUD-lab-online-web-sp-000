@@ -15,11 +15,11 @@ create_an_array.unshift("wow")
 end
 
 def remove_element_from_end_of_array(array)
-wow_element = create_an_array.pop
+create_an_array.pop
 end
 
 def remove_element_from_start_of_array(array)
-pink_element = create_an_array.shift
+create_an_array.shift
 end
 
 def retrieve_element_from_index(array, index_number)
